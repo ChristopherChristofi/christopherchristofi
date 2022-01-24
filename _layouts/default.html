@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1">
+		<meta property="og:locale" content="en_GB">
+		<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+		<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+		<meta property="og:site_name" content="Christopher Christofi Portfolio">
+		<meta property="article:publisher" content="https://github.com/christopher-christofi" />
+		<meta property="article:author" content="https://github.com/christopher-christofi" />
+		<meta property="article:published_time" content="{{ page.date }}" />
+		<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+		<title>{{ page.title }}</title>
+		<link rel="canonical" href="{{ page.url | preprend: site.url }}">
+		<link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+		<link rel="shortcut icon" type="image/png" href="favicon.png">
+	</head>
+	<body>
+		{% include navigation.html %}
+		{{ content }}
+		{% include contact_form.html %}
+		{% include footer.html %}
+	</body>
+</html>

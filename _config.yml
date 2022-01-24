@@ -1,0 +1,15 @@
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+paginate: 3
+
+plugins:
+  - jekyll-paginate
