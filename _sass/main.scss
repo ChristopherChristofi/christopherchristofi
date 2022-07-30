@@ -242,7 +242,7 @@ a {
 .posts-container .posts-container-header,
 .cv-container .cv-subtitle {
 	font-weight: 800;
-	font-size: 25px;
+	font-size: 22px;
 	color: #000;
 }
 
@@ -252,7 +252,8 @@ a {
 }
 
 .cv-container .cv-work-list {
-	font-size: 25px;
+	font-size: 18px;
+	font-weight: 700;
 	line-height: 1.5em;
 }
 
@@ -288,6 +289,17 @@ a {
 	margin: 0 auto;
 	padding-bottom: 25px;
 }
+
+.article-container img {
+	display: block;
+	width: 90%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* contact form removed */
+
 
 .outer-contact-container {
 	max-width: 860px;

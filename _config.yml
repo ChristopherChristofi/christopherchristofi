@@ -9,7 +9,7 @@ defaults:
     values:
       layout: "default"
 
-paginate: 3
+paginate: 4
 
 plugins:
   - jekyll-paginate

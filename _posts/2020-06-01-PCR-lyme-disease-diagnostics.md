@@ -1,5 +1,5 @@
 ---
-topic: Case Study; Literary Review
+topic: Case Study
 title: Polymerase Chain Reaction Diagnostics and Atypical Lyme Disease
 ---
 Further expanding the defined tree of genetic determinants will improve *Borrelia* diagnosis, in support of other study, DNA extract **polymerase chain reaction (PCR)** was most effective; however there are reported diagnosis suggesting direct tissue study is superior to serological testing. And case report analyses of *Borrelia* pathogenesis in atypical clinical presentations of **Lyme disease (LD)** accompanied prolonged diagnosis until PCR tests were implemented, with each case report having effective treatment outcomes with either doxycycline or intravenous ceftiaxone with most effect. Furthermore, revealed false negatives associated with antibody testing and the duration of pathogenesis, suggests the importance of different clinical stages and antibody reactivity during the testing phases, in addition, immunodeficiency reveals reduced responses to antibody tests. However, indications of molecular mimicry can lead to *Borrelia* autoimmunity and DNA persistence which is maladptive for PCR diagnosis and treatment evaluation.
